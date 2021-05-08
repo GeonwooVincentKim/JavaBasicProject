@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CastingExample",
+            "request": "launch",
+            "mainClass": "chap01.CastingExample",
+            "projectName": "JavaBasicStudy_cf75ddc7"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoCastingExample",
+            "request": "launch",
+            "mainClass": "chap01.AutoCastingExample",
+            "projectName": "JavaBasicStudy_cf75ddc7"
+        },
+        {
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasename}",
+            "type": "java",
+            "request": "launch",
+            "name": "Debug (Launch) - Current File",
+            "mainClass": "${file}"
+        }
+    ]
+}
