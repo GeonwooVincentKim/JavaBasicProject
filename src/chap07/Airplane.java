@@ -1,4 +1,4 @@
-package chap07_1;
+package chap07;
 
 public class Airplane {
     public void land() {

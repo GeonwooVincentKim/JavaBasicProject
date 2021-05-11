@@ -1,4 +1,4 @@
-package chap07_1;
+package chap07;
 
 public class SupersonicAirplaneExample {
     public static void main(String[] args) {
